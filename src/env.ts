@@ -5,6 +5,7 @@ import { z } from 'zod'
 
 const envSchema = z.object({
   NEXT_PUBLIC_API_BASE_URL: z.string().url(),
+  APP_URL: z.string().url(),
 })
 
 // pega o valor enviado como parâmetro (process.env) e vai fazer um parse, vai validar que o process.env está seguindo o formato do schema

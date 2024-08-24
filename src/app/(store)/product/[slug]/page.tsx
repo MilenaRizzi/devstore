@@ -53,7 +53,6 @@ export default async function ProductPage({ params }: ProductProps) {
           width={1000}
           height={1000}
           quality={100}
-          // por padrão a qualidade vem como 80 e quando a imagem é muito grande é bom manter o 100 pois é possível perceber a falta de qualidade
         />
       </div>
       <div className="flex flex-col justify-center px-12">
@@ -84,25 +83,25 @@ export default async function ProductPage({ params }: ProductProps) {
           <div className="flex gap-2">
             <button
               type="button"
-              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold focus:border-white"
             >
               P
             </button>
             <button
               type="button"
-              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold focus:border-white"
             >
               M
             </button>
             <button
               type="button"
-              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold focus:border-white"
             >
               G
             </button>
             <button
               type="button"
-              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="fex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold focus:border-white"
             >
               GG
             </button>
